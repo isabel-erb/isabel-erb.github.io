@@ -1,0 +1,25 @@
+---
+title: "About"
+toc: false
+---
+
+I am an industrial PhD researcher at Lund University and Sweden Water Research, working at the intersection of microbial water quality, environmental monitoring, and data science.
+
+My research explores how high-frequency microbial and environmental data can be used to better understand changes in water quality. I am particularly interested in online flow cytometry, machine learning, explainable AI, anomaly detection, and predictive modelling.
+
+Through my industrial PhD, I work closely with the water sector, with the aim of connecting methodological research with practical challenges in water quality monitoring and management.
+
+## Research interests
+
+- Microbial water quality
+- Online flow cytometry
+- Machine learning & explainable AI
+- Anomaly detection
+- Time-series analysis & forecasting
+- Environmental monitoring
+- Data-driven water quality management
+
+## Affiliations
+
+**Lund University**  
+**Sweden Water Research**

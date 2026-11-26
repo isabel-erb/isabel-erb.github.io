@@ -1,0 +1,45 @@
+---
+title: "Publications"
+toc: false
+---
+
+## 2026
+
+**Beyond baselines for anomaly detection: Isolation Forest for baseline-free identification of anomalies in microbial water quality using online flow cytometry and explainable AI**
+
+**Isabel K. Erb**, Sverrir Guðmundsson, Ellen Edefell, Sigrún Tómasdóttir, Bjarni Reyr Kristjánsson, Niklas Gador, Catherine J. Paul
+
+*Water Research*
+
+[DOI](https://doi.org/10.1016/j.watres.2026.126825)
+
+
+## 2025
+
+**A data-driven early warning system for *Escherichia coli* in water based on microbial community analysis using flow cytometry 2D histograms**
+
+**Isabel K. Erb**, Niklas Gador, Moa Jinbäck, Elisabet Lindberg, Catherine J. Paul
+
+*Water Research X*
+
+[DOI](https://doi.org/10.1016/j.wroa.2025.100404)
+
+
+**Microbial Contamination in Urban Marine Sediments: Source Identification Using Microbial Community Analysis and Fecal Indicator Bacteria**
+
+Ellinor M. Frank, Carolina Suarez, **Isabel K. Erb**, Therese Jephson, Elisabet Lindberg, Catherine J. Paul
+
+*Microorganisms*
+
+[DOI](https://doi.org/10.3390/microorganisms13050983)
+
+
+## 2024
+
+***Escherichia coli* in urban marine sediments: interpreting virulence, biofilm formation, halotolerance, and antibiotic resistance to infer contamination or naturalization**
+
+**Isabel K. Erb**, Carolina Suarez, Ellinor M. Frank, Johan Bengtsson-Palme, Elisabet Lindberg, Catherine J. Paul
+
+*FEMS Microbes*
+
+[DOI](https://doi.org/10.1093/femsmc/xtae024)

@@ -1,0 +1,22 @@
+---
+title: "Research"
+toc: false
+---
+
+My research focuses on microbial water quality and the use of data-driven approaches to better understand, monitor, and predict changes in aquatic and drinking water systems.
+
+## Online microbial water quality monitoring
+
+I work with online and high-frequency monitoring approaches, particularly flow cytometry, to characterize microbial communities and detect changes in microbial water quality.
+
+## Data science & machine learning
+
+I apply machine learning and statistical methods to complex water quality datasets, including anomaly detection, explainable AI, and time-series forecasting. My research aims to develop approaches that are both scientifically interpretable and practically useful.
+
+## Environmental drivers of microbial water quality
+
+I investigate how environmental and hydrometeorological conditions influence microbial water quality. By combining microbial measurements with environmental data, I aim to better understand the processes driving short-term changes in water quality.
+
+## From research to practice
+
+As an industrial PhD researcher, an important part of my work is translating research into approaches that can support water utilities in monitoring and managing water quality.
