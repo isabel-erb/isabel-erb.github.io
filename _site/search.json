@@ -67,84 +67,84 @@
     "href": "cv.html",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "PhD Candidate | Environmental Microbiology · Online Flow Cytometry · Machine Learning\nEmail · GitHub · ORCID · Google Scholar"
+    "text": "PhD Candidate · Environmental Microbiology · Online Flow Cytometry · Machine Learning\nEmail · GitHub · ORCID · Google Scholar"
   },
   {
     "objectID": "cv.html#isabel-k.-erb",
     "href": "cv.html#isabel-k.-erb",
     "title": "Curriculum Vitae",
     "section": "",
-    "text": "PhD Candidate | Environmental Microbiology · Online Flow Cytometry · Machine Learning\nEmail · GitHub · ORCID · Google Scholar"
+    "text": "PhD Candidate · Environmental Microbiology · Online Flow Cytometry · Machine Learning\nEmail · GitHub · ORCID · Google Scholar"
   },
   {
     "objectID": "cv.html#profile",
     "href": "cv.html#profile",
     "title": "Curriculum Vitae",
     "section": "Profile",
-    "text": "Profile\nFinal-year industrial PhD candidate in Biotechnology and Applied Microbiology, specializing in data-driven monitoring of microbial water quality. My research combines online flow cytometry, automated E. coli measurements, environmental fieldwork, and explainable machine learning to study microbial water quality in urban coastal, bathing-water, groundwater, and drinking-water systems.\nI develop interpretable forecasting and anomaly-detection methods in collaboration with water utilities in Sweden and Iceland."
+    "text": "Profile\nI am a final-year industrial PhD candidate in Biotechnology and Applied Microbiology at Lund University and Sweden Water Research. My research combines microbial water quality monitoring, online flow cytometry, environmental data, and machine learning.\nI am particularly interested in developing interpretable data-driven approaches for understanding and predicting changes in microbial water quality."
   },
   {
     "objectID": "cv.html#education",
     "href": "cv.html#education",
     "title": "Curriculum Vitae",
     "section": "Education",
-    "text": "Education\n\nPhD in Biotechnology and Applied Microbiology\nLund University and Sweden Water Research AB, Sweden\nOctober 2022–present\nExpected graduation: April 2027\n\n\nMSc in Biotechnology\nLund University, Sweden\nAugust 2020–June 2022\n\n\nBSc in Biotechnology\nBHT University of Applied Sciences, Berlin, Germany\nApril 2017–May 2020"
+    "text": "Education\n\nPhD in Biotechnology and Applied Microbiology\nLund University & Sweden Water Research AB · Sweden\n2022–present · Expected graduation April 2027\n\n\nMSc in Biotechnology\nLund University · Sweden\n2020–2022\n\n\nBSc in Biotechnology\nBHT University of Applied Sciences · Berlin, Germany\n2017–2020"
   },
   {
     "objectID": "cv.html#research-experience",
     "href": "cv.html#research-experience",
     "title": "Curriculum Vitae",
     "section": "Research Experience",
-    "text": "Research Experience\n\nDoctoral Student\nLund University and Sweden Water Research AB, Sweden\nOctober 2022–present\n\nImplement and evaluate automated monitoring procedures integrating online flow cytometry, enzymatic E. coli measurements, and environmental data.\nDevelop Python-based classification and forecasting models for fecal indicator bacteria in urban waters.\nDevelop baseline-free anomaly-detection pipelines using unsupervised machine learning.\nApply SHAP to investigate microbial anomalies in relation to operational and meteorological conditions.\nConduct culture-based and phenotypic analyses of environmental E. coli.\n\n\n\nVisiting Doctoral Researcher\nVeitur, Reykjavík, Iceland\nMarch–May 2025\n\nConducted automated monitoring of groundwater used for drinking-water production using online flow cytometry.\nApplied unsupervised machine learning to identify anomalous changes in groundwater microbial communities.\nEvaluated detected anomalies using utility operational records and meteorological data.\nUsed explainable AI to identify the flow cytometric features associated with microbial anomalies.\n\n\n\nResearch Assistant\nSweden Water Research, Lund, Sweden\nJune–October 2022\n\nEstablished continuous microbial monitoring of seawater using a BactoSense online flow cytometer and a ColiMinder enzymatic E. coli monitor.\nMonitored instrument performance and data quality during field deployment.\nProcessed and analyzed microbial and environmental monitoring data.\n\n\n\nMaster’s Thesis Student\nLund University, Sweden\nJanuary–June 2022\n\nAnalyzed whole-genome sequences of environmental E. coli isolated from marine sediments.\nCharacterized halotolerance, antibiotic susceptibility, and biofilm formation.\nPerformed statistical analyses of genomic and phenotypic characteristics."
+    "text": "Research Experience\n\nDoctoral Student\nLund University & Sweden Water Research AB\n2022–present\nResearch on data-driven microbial water-quality monitoring using online flow cytometry, automated E. coli measurements, environmental monitoring, machine learning, time-series forecasting, anomaly detection, and explainable AI.\n\n\nVisiting Doctoral Researcher\nVeitur · Reykjavík, Iceland\nMarch–May 2025\nInvestigated microbial dynamics in groundwater used for drinking-water production using online flow cytometry, unsupervised machine learning, operational data, meteorological data, and explainable AI.\n\n\nResearch Assistant\nSweden Water Research · Lund, Sweden\nJune–October 2022\nEstablished continuous microbial monitoring of seawater using BactoSense online flow cytometry and ColiMinder automated E. coli monitoring.\n\n\nMaster’s Thesis\nLund University · Sweden\nJanuary–June 2022\nGenomic and phenotypic characterization of environmental E. coli isolated from urban marine sediments."
   },
   {
-    "objectID": "cv.html#selected-skills",
-    "href": "cv.html#selected-skills",
+    "objectID": "cv.html#expertise",
+    "href": "cv.html#expertise",
     "title": "Curriculum Vitae",
-    "section": "Selected Skills",
-    "text": "Selected Skills\n\nFlow cytometry: Conventional, automated, and online systems; 2D fingerprint analysis\nScientific computing: Python, pandas, scikit-learn, R, and QGIS\nMachine learning: Random Forest, Isolation Forest, support vector machines, logistic regression, and LSTM\nTime-series analysis and explainable AI: Forecasting, anomaly detection, and SHAP\nMolecular microbiology: DNA extraction, quantification, and whole-genome sequencing preparation\nBioinformatics: SKESA, CheckM, RGI, ClermonTyping, and MLST\nPhenotypic assays: Antibiotic susceptibility, growth, halotolerance, UV inhibition, and biofilm formation\nEnvironmental fieldwork: Water, sediment, soil, and air sampling\nResearch practice: Experimental design, statistical analysis, scientific writing, and student mentoring"
+    "section": "Expertise",
+    "text": "Expertise\nMicrobial monitoring\nOnline flow cytometry · BactoSense · ColiMinder · Microbial community fingerprints\nData science\nPython · pandas · scikit-learn · R · QGIS\nMachine learning\nRandom Forest · Isolation Forest · Support Vector Machines · Logistic Regression · LSTM\nTime series & explainable AI\nForecasting · Anomaly detection · SHAP\nEnvironmental microbiology\nCulture-based methods · Environmental E. coli · Antibiotic susceptibility · Biofilm formation · Halotolerance\nMolecular & genomic methods\nDNA extraction · Whole-genome sequencing preparation · SKESA · CheckM · RGI · ClermonTyping · MLST\nFieldwork\nWater · Sediment · Soil · Air sampling · Environmental metadata collection"
   },
   {
-    "objectID": "cv.html#teaching-and-mentoring",
-    "href": "cv.html#teaching-and-mentoring",
+    "objectID": "cv.html#teaching-mentoring",
+    "href": "cv.html#teaching-mentoring",
     "title": "Curriculum Vitae",
-    "section": "Teaching and Mentoring",
-    "text": "Teaching and Mentoring\n\nResearch Mentor\nLund University, Sweden\nMarch 2023–present\nMentoring bachelor’s and master’s students conducting research on microbial water quality, environmental E. coli, antibiotic resistance, and anthropogenic impacts on aquatic systems.\n\n\nTeaching Assistant: Gene Technology\nLund University, Sweden\nMay 2026\nDelivered a guest lecture on archaeogenetics and graded master’s-level examinations.\n\n\nTeaching Assistant: Food Technology\nLund University, Sweden\n2022–2024\nSupervised laboratory practicals involving bacterial enumeration and microbial food production.\n\n\nSupplemental Instruction Leader\nLund University, Sweden\n2021\nDesigned and led supplemental instruction sessions in Bioprocess Technology."
+    "section": "Teaching & Mentoring",
+    "text": "Teaching & Mentoring\nResearch Mentor · Lund University\n2023–present\nMentoring bachelor’s and master’s students in microbial water quality and environmental microbiology.\nTeaching Assistant · Gene Technology\n2026\nGuest lecture on archaeogenetics and master-level examination grading.\nTeaching Assistant · Food Technology\n2022–2024\nSupervision of microbiology laboratory practicals.\nSupplemental Instruction Leader · Bioprocess Technology\n2021\nDesigned and led student learning sessions."
   },
   {
     "objectID": "cv.html#selected-invited-talks",
     "href": "cv.html#selected-invited-talks",
     "title": "Curriculum Vitae",
     "section": "Selected Invited Talks",
-    "text": "Selected Invited Talks\n\nEUGLOH E-Conference on SDG 14: Life Below Water\nInvited speaker, April 2026\nImproving Marine Bathing Water Safety with Machine Learning and Flow Cytometry\nWatch the recording\n\n\nSödertörn University\nInvited seminar, April 2026\nImproving microbial quality of marine bathing water using whole-genome sequencing, flow cytometry, and machine learning\n\n\nSwedish Water Research Day\nInvited speaker, November 2024\nMaskininlärning för bättre badvattenkvalitet i Skåne"
+    "text": "Selected Invited Talks\nEUGLOH E-Conference on SDG 14: Life Below Water · 2026\nImproving Marine Bathing Water Safety with Machine Learning and Flow Cytometry\nWatch recording\nSödertörn University · 2026\nImproving microbial quality of marine bathing water using whole-genome sequencing, flow cytometry and machine learning\nSwedish Water Research Day · 2024\nMaskininlärning för bättre badvattenkvalitet i Skåne"
   },
   {
     "objectID": "cv.html#selected-conferences",
     "href": "cv.html#selected-conferences",
     "title": "Curriculum Vitae",
     "section": "Selected Conferences",
-    "text": "Selected Conferences\n\nIWA World Water Congress & Exhibition, Glasgow, UK, 2026 — Oral presentation\nInternational Society for Microbial Ecology, Auckland, New Zealand, 2026 — Poster presentation\nAmerican Society for Microbiology Conference, Washington, DC, USA, 2026 — Poster presentation\nSwedish Water Research and Innovation Conference, Uppsala, Sweden, 2024 — Oral and poster presentations\nNordic Wastewater Conference, Gothenburg, Sweden, 2023 — Two oral presentations\nFEMS Congress of European Microbiologists, Hamburg, Germany, 2023 — Poster presentation"
+    "text": "Selected Conferences\nIWA World Water Congress & Exhibition · Glasgow, UK · 2026\nOral presentation\nInternational Society for Microbial Ecology (ISME) · Auckland, New Zealand · 2026\nPoster presentation\nAmerican Society for Microbiology (ASM) · Washington, DC, USA · 2026\nPoster presentation\nSwedish Water Research and Innovation Conference · Uppsala, Sweden · 2024\nOral & poster presentations\nNordic Wastewater Conference (NORDIWA) · Gothenburg, Sweden · 2023\nTwo oral presentations\nFEMS Congress of European Microbiologists · Hamburg, Germany · 2023\nPoster presentation"
   },
   {
-    "objectID": "cv.html#honors-and-recognition",
-    "href": "cv.html#honors-and-recognition",
+    "objectID": "cv.html#honors-recognition",
+    "href": "cv.html#honors-recognition",
     "title": "Curriculum Vitae",
-    "section": "Honors and Recognition",
-    "text": "Honors and Recognition\n\nYoung Researcher Travel Scholarship for PhD Students, Royal Physiographic Society of Lund, 2026\nErnhold Lundström’s Scholarship, 2024 and 2026\nSwedish Television interview, 2025 — View the SVT feature\nHelsingborgs Dagblad research feature, 2024 — View the article\niGEM Competition Gold Medal, 2021 — Lund iGEM team"
+    "section": "Honors & Recognition",
+    "text": "Honors & Recognition\nYoung Researcher Travel Scholarship · 2026\nRoyal Physiographic Society of Lund\nErnhold Lundström’s Scholarship · 2024 & 2026\nAwarded based on academic merit\nSwedish Television (SVT Helsingborg) · 2025\nInterview about rapid, data-driven microbial water-quality monitoring\nView feature\nHelsingborgs Dagblad · 2024\nMedia coverage of research on rapid microbial bathing-water monitoring\nView feature\niGEM Competition · 2021\nGold Medal · Lund iGEM Team"
   },
   {
-    "objectID": "cv.html#academic-service-and-leadership",
-    "href": "cv.html#academic-service-and-leadership",
+    "objectID": "cv.html#academic-service-leadership",
+    "href": "cv.html#academic-service-leadership",
     "title": "Curriculum Vitae",
-    "section": "Academic Service and Leadership",
-    "text": "Academic Service and Leadership\n\nWorkshop Co-Chair, IWA World Water Congress & Exhibition, Glasgow, 2026\nPeer Reviewer, Journal of Applied Microbiology, 2026\nMember, IWA Young Water Professionals, 2023–present\nVolunteer Researcher, EMBL Traversing European Coastlines Expedition, Askö, Sweden, 2023"
+    "section": "Academic Service & Leadership",
+    "text": "Academic Service & Leadership\nWorkshop Co-Chair · IWA World Water Congress & Exhibition · 2026\nMicrobial Sensors for Real-Time Management of Drinking and Recreational Waters\nPeer Reviewer · Journal of Applied Microbiology · 2026\nMember · IWA Young Water Professionals · 2023–present\nVolunteer Researcher · EMBL Traversing European Coastlines (TREC) Expedition · 2023"
   },
   {
     "objectID": "cv.html#languages",
     "href": "cv.html#languages",
     "title": "Curriculum Vitae",
     "section": "Languages",
-    "text": "Languages\n\nGerman: Native\nEnglish: Fluent\nSwedish: Intermediate\nFrench: Basic"
+    "text": "Languages\nGerman · Native\nEnglish · Fluent\nSwedish · Intermediate\nFrench · Basic"
   },
   {
     "objectID": "cv.html#publications",
