@@ -1,1 +1,725 @@
-/* css styles */
+/* =====================================================
+   Isabel K. Erb - Academic Website
+   Water + Microbial Data Theme
+   ===================================================== */
+
+:root {
+  --water-dark: #245d66;
+  --water: #357985;
+  --water-light: #78aeb5;
+  --water-pale: #eef6f6;
+  --text-dark: #2f383b;
+  --text-medium: #4d5a5d;
+  --line-light: #d7e5e6;
+  --white: #ffffff;
+}
+
+
+/* =====================================================
+   GENERAL PAGE
+   ===================================================== */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-dark);
+  line-height: 1.65;
+  background-color: var(--white);
+}
+
+main {
+  max-width: 1100px;
+}
+
+p {
+  margin-bottom: 1.1rem;
+}
+
+
+/* =====================================================
+   NAVIGATION
+   ===================================================== */
+
+.navbar {
+  background-color: var(--water-dark) !important;
+  padding-top: 0.85rem;
+  padding-bottom: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  color: var(--white) !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.navbar .nav-link {
+  color: rgba(255, 255, 255, 0.88) !important;
+}
+
+.navbar .nav-link:hover {
+  color: var(--white) !important;
+}
+
+
+/* =====================================================
+   HEADINGS
+   ===================================================== */
+
+h1,
+h2,
+h3 {
+  color: var(--text-dark);
+  font-weight: 600;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--line-light);
+}
+
+h3 {
+  margin-top: 1.6rem;
+}
+
+
+/* =====================================================
+   LINKS
+   ===================================================== */
+
+a {
+  color: var(--water);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--water-dark);
+  text-decoration: underline;
+}
+
+
+/* =====================================================
+   HOMEPAGE
+   ===================================================== */
+
+.columns {
+  align-items: center;
+}
+
+.column {
+  padding-right: 2rem;
+}
+
+.column img {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+
+  box-shadow:
+    10px 10px 0 var(--water-pale),
+    0 4px 14px rgba(36, 93, 102, 0.12);
+}
+
+
+/* =====================================================
+   WATER AREA
+   ===================================================== */
+
+.water-animation {
+  position: relative;
+
+  width: 100vw;
+  height: 260px;
+
+  margin-left: calc(50% - 50vw);
+  margin-top: 1rem;
+
+  overflow: hidden;
+
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 15%,
+    rgba(217, 241, 243, 0.18) 30%,
+    rgba(166, 218, 223, 0.32) 55%,
+    rgba(107, 187, 196, 0.48) 100%
+  );
+}
+
+
+/* =====================================================
+   SEDIMENT
+   ===================================================== */
+
+.water-animation::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 30px;
+
+  background: linear-gradient(
+    to bottom,
+    #d8c5a3 0%,
+    #c7ad82 55%,
+    #b89a70 100%
+  );
+
+  border-top: 2px solid rgba(143, 116, 79, 0.25);
+
+  z-index: 4;
+}
+
+
+/* =====================================================
+   WAVES
+   ===================================================== */
+
+.wave {
+  position: absolute;
+  left: -15%;
+
+  width: 130%;
+  height: 165px;
+
+  border-radius: 45% 55% 48% 52%;
+
+  transform-origin: center;
+
+  z-index: 1;
+}
+
+
+/* Main wave */
+
+.wave-1 {
+  bottom: 30px;
+
+  background: rgba(79, 171, 184, 0.13);
+
+  border-top: 3px solid rgba(43, 132, 147, 0.48);
+
+  animation: waveFlow1 3.5s ease-in-out infinite alternate;
+}
+
+
+/* Secondary wave */
+
+.wave-2 {
+  bottom: 0px;
+
+  background: rgba(101, 190, 199, 0.10);
+
+  border-top: 2px solid rgba(91, 176, 187, 0.42);
+
+  animation: waveFlow2 4.5s ease-in-out infinite alternate;
+}
+
+
+/* Third soft wave */
+
+.wave-2::after {
+  content: "";
+
+  position: absolute;
+
+  left: -5%;
+  top: 15px;
+
+  width: 110%;
+  height: 145px;
+
+  border-radius: 53% 47% 55% 45%;
+
+  border-top: 2px solid rgba(139, 202, 208, 0.32);
+
+  background: rgba(148, 211, 217, 0.06);
+
+  animation: waveFlow3 3s ease-in-out infinite alternate;
+}
+
+
+/* =====================================================
+   WAVE MOVEMENT
+   ===================================================== */
+
+@keyframes waveFlow1 {
+
+  0% {
+    transform:
+      translateX(-5%)
+      translateY(15px)
+      rotate(-1.2deg)
+      scaleY(0.78);
+  }
+
+  35% {
+    transform:
+      translateX(-1%)
+      translateY(-30px)
+      rotate(1deg)
+      scaleY(1.18);
+  }
+
+  70% {
+    transform:
+      translateX(3%)
+      translateY(5px)
+      rotate(-0.8deg)
+      scaleY(0.90);
+  }
+
+  100% {
+    transform:
+      translateX(7%)
+      translateY(-60px)
+      rotate(1.3deg)
+      scaleY(1.25);
+  }
+}
+
+
+@keyframes waveFlow2 {
+
+  0% {
+    transform:
+      translateX(6%)
+      translateY(-5px)
+      rotate(1deg)
+      scaleY(1.05);
+  }
+
+  50% {
+    transform:
+      translateX(0%)
+      translateY(-65px)
+      rotate(-1.3deg)
+      scaleY(1.30);
+  }
+
+  100% {
+    transform:
+      translateX(-7%)
+      translateY(8px)
+      rotate(0.8deg)
+      scaleY(0.90);
+  }
+}
+
+
+@keyframes waveFlow3 {
+
+  0% {
+    transform:
+      translateX(-3%)
+      translateY(10px)
+      scaleY(0.90);
+  }
+
+  100% {
+    transform:
+      translateX(6%)
+      translateY(-50px)
+      scaleY(1.25);
+  }
+}
+
+
+/* =====================================================
+   MICROBIAL COMMUNITY
+   ===================================================== */
+
+.microbe {
+  position: absolute;
+
+  z-index: 3;
+
+  opacity: 0.82;
+
+  box-shadow:
+    0 0 5px rgba(255, 255, 255, 0.35);
+
+  animation-name: microbialCurrent;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+
+/* Cyan coccus */
+
+.microbe-1 {
+  left: -5%;
+  top: 160px;
+
+  width: 7px;
+  height: 7px;
+
+  border-radius: 50%;
+  background: #38aeb9;
+
+  animation-duration: 10s;
+}
+
+
+/* Green rod */
+
+.microbe-2 {
+  left: -8%;
+  top: 195px;
+
+  width: 19px;
+  height: 7px;
+
+  border-radius: 8px;
+  background: #72ad70;
+
+  animation-duration: 14s;
+  animation-delay: -4s;
+}
+
+
+/* Purple rod */
+
+.microbe-3 {
+  left: -6%;
+  top: 145px;
+
+  width: 22px;
+  height: 8px;
+
+  border-radius: 8px;
+  background: #8a76ae;
+
+  animation-duration: 12s;
+  animation-delay: -7s;
+}
+
+
+/* Blue coccus */
+
+.microbe-4 {
+  left: -8%;
+  top: 215px;
+
+  width: 8px;
+  height: 8px;
+
+  border-radius: 50%;
+  background: #4c8fbd;
+
+  animation-duration: 16s;
+  animation-delay: -9s;
+}
+
+
+/* Coral rod */
+
+.microbe-5 {
+  left: -6%;
+  top: 180px;
+
+  width: 17px;
+  height: 7px;
+
+  border-radius: 8px;
+  background: #d98274;
+
+  animation-duration: 13s;
+  animation-delay: -2s;
+}
+
+
+/* Gold rod */
+
+.microbe-6 {
+  left: -7%;
+  top: 225px;
+
+  width: 21px;
+  height: 7px;
+
+  border-radius: 8px;
+  background: #d2a642;
+
+  animation-duration: 15s;
+  animation-delay: -6s;
+}
+
+
+/* Teal coccus */
+
+.microbe-7 {
+  left: -9%;
+  top: 188px;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+  background: #4fa6a6;
+
+  animation-duration: 9s;
+  animation-delay: -5s;
+}
+
+
+/* Turquoise rod */
+
+.microbe-8 {
+  left: -7%;
+  top: 150px;
+
+  width: 16px;
+  height: 6px;
+
+  border-radius: 7px;
+  background: #55b7ad;
+
+  animation-duration: 17s;
+  animation-delay: -12s;
+}
+
+
+/* Pink coccus */
+
+.microbe-9 {
+  left: -5%;
+  top: 208px;
+
+  width: 9px;
+  height: 9px;
+
+  border-radius: 50%;
+  background: #c77d91;
+
+  animation-duration: 11s;
+  animation-delay: -8s;
+}
+
+
+/* Blue rod */
+
+.microbe-10 {
+  left: -8%;
+  top: 175px;
+
+  width: 20px;
+  height: 7px;
+
+  border-radius: 8px;
+  background: #548eaf;
+
+  animation-duration: 14.5s;
+  animation-delay: -10s;
+}
+
+
+/* Green coccus */
+
+.microbe-11 {
+  left: -5%;
+  top: 230px;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+  background: #87af75;
+
+  animation-duration: 12.5s;
+  animation-delay: -6s;
+}
+
+
+/* Violet rod */
+
+.microbe-12 {
+  left: -9%;
+  top: 202px;
+
+  width: 15px;
+  height: 6px;
+
+  border-radius: 7px;
+  background: #8c80ad;
+
+  animation-duration: 18s;
+  animation-delay: -14s;
+}
+
+
+/* Orange coccus */
+
+.microbe-13 {
+  left: -6%;
+  top: 168px;
+
+  width: 6px;
+  height: 6px;
+
+  border-radius: 50%;
+  background: #d99b62;
+
+  animation-duration: 10.5s;
+  animation-delay: -3s;
+}
+
+
+/* Dark teal rod */
+
+.microbe-14 {
+  left: -7%;
+  top: 218px;
+
+  width: 18px;
+  height: 6px;
+
+  border-radius: 7px;
+  background: #477f83;
+
+  animation-duration: 15.5s;
+  animation-delay: -11s;
+}
+
+
+/* =====================================================
+   MICROBIAL MOVEMENT THROUGH WATER
+   ===================================================== */
+
+@keyframes microbialCurrent {
+
+  0% {
+    transform:
+      translateX(0)
+      translateY(0)
+      rotate(0deg);
+
+    opacity: 0;
+  }
+
+  5% {
+    opacity: 0.82;
+  }
+
+  20% {
+    transform:
+      translateX(25vw)
+      translateY(-14px)
+      rotate(5deg);
+  }
+
+  40% {
+    transform:
+      translateX(48vw)
+      translateY(10px)
+      rotate(-4deg);
+  }
+
+  60% {
+    transform:
+      translateX(70vw)
+      translateY(-18px)
+      rotate(6deg);
+  }
+
+  80% {
+    transform:
+      translateX(93vw)
+      translateY(8px)
+      rotate(-3deg);
+  }
+
+  95% {
+    opacity: 0.82;
+  }
+
+  100% {
+    transform:
+      translateX(115vw)
+      translateY(-8px)
+      rotate(4deg);
+
+    opacity: 0;
+  }
+}
+
+
+/* =====================================================
+   OTHER PAGE ELEMENTS
+   ===================================================== */
+
+hr {
+  border: none;
+  border-top: 1px solid var(--line-light);
+  margin: 2rem 0;
+}
+
+li {
+  margin-bottom: 0.35rem;
+}
+
+::selection {
+  background-color: var(--water-light);
+  color: var(--text-dark);
+}
+
+
+/* =====================================================
+   ACCESSIBILITY
+   ===================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .wave,
+  .wave-2::after,
+  .microbe {
+    animation: none;
+  }
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 768px) {
+
+  .columns {
+    display: block;
+  }
+
+  .column {
+    width: 100% !important;
+    padding-right: 0;
+  }
+
+  .column img {
+    display: block;
+    margin-top: 2rem;
+    max-width: 220px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .water-animation {
+    height: 220px;
+    margin-top: 2rem;
+  }
+
+  .water-animation::after {
+    height: 24px;
+  }
+}
