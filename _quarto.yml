@@ -2,15 +2,11 @@ project:
   type: website
 
 website:
-  title: "Isabel K. Erb"
+  title: "Water · Microbes · Data"
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - href: about.qmd
-        text: About
-      - href: research.qmd
-        text: Research
       - href: publications.qmd
         text: Publications
       - href: cv.qmd
@@ -21,5 +17,3 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
-
-    
