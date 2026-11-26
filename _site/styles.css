@@ -206,7 +206,7 @@ a:hover {
 
   border-top: 3px solid rgba(43, 132, 147, 0.48);
 
-  animation: waveFlow1 3.5s ease-in-out infinite alternate;
+  animation: waveFlow1 7.5s ease-in-out infinite alternate;
 }
 
 
@@ -219,7 +219,7 @@ a:hover {
 
   border-top: 2px solid rgba(91, 176, 187, 0.42);
 
-  animation: waveFlow2 4.5s ease-in-out infinite alternate;
+  animation: waveFlow2 7.5s ease-in-out infinite alternate;
 }
 
 
@@ -242,7 +242,7 @@ a:hover {
 
   background: rgba(148, 211, 217, 0.06);
 
-  animation: waveFlow3 3s ease-in-out infinite alternate;
+  animation: waveFlow3 7s ease-in-out infinite alternate;
 }
 
 
@@ -674,15 +674,6 @@ li {
 /* =====================================================
    ACCESSIBILITY
    ===================================================== */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .wave,
-  .wave-2::after,
-  .microbe {
-    animation: none;
-  }
-}
 
 
 /* =====================================================
