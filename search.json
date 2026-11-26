@@ -1,0 +1,184 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "My research focuses on microbial water quality and the use of data-driven approaches to better understand, monitor, and predict changes in aquatic and drinking water systems."
+  },
+  {
+    "objectID": "research.html#online-microbial-water-quality-monitoring",
+    "href": "research.html#online-microbial-water-quality-monitoring",
+    "title": "Research",
+    "section": "Online microbial water quality monitoring",
+    "text": "Online microbial water quality monitoring\nI work with online and high-frequency monitoring approaches, particularly flow cytometry, to characterize microbial communities and detect changes in microbial water quality."
+  },
+  {
+    "objectID": "research.html#data-science-machine-learning",
+    "href": "research.html#data-science-machine-learning",
+    "title": "Research",
+    "section": "Data science & machine learning",
+    "text": "Data science & machine learning\nI apply machine learning and statistical methods to complex water quality datasets, including anomaly detection, explainable AI, and time-series forecasting. My research aims to develop approaches that are both scientifically interpretable and practically useful."
+  },
+  {
+    "objectID": "research.html#environmental-drivers-of-microbial-water-quality",
+    "href": "research.html#environmental-drivers-of-microbial-water-quality",
+    "title": "Research",
+    "section": "Environmental drivers of microbial water quality",
+    "text": "Environmental drivers of microbial water quality\nI investigate how environmental and hydrometeorological conditions influence microbial water quality. By combining microbial measurements with environmental data, I aim to better understand the processes driving short-term changes in water quality."
+  },
+  {
+    "objectID": "research.html#from-research-to-practice",
+    "href": "research.html#from-research-to-practice",
+    "title": "Research",
+    "section": "From research to practice",
+    "text": "From research to practice\nAs an industrial PhD researcher, an important part of my work is translating research into approaches that can support water utilities in monitoring and managing water quality."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Isabel K. Erb",
+    "section": "",
+    "text": "PhD Researcher in Microbial Water Quality & Data Science\nI am an industrial PhD researcher at Lund University and Sweden Water Research. My research focuses on microbial water quality monitoring and the application of data-driven methods to better understand and predict changes in water quality.\nMy work combines online monitoring, flow cytometry, environmental data, and machine learning, with a particular interest in translating these approaches into practical tools for water utilities.\nLund University · Sweden Water Research\nGoogle Scholar · ORCID · GitHub · LinkedIn"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an industrial PhD researcher at Lund University and Sweden Water Research, working at the intersection of microbial water quality, environmental monitoring, and data science.\nMy research explores how high-frequency microbial and environmental data can be used to better understand changes in water quality. I am particularly interested in online flow cytometry, machine learning, explainable AI, anomaly detection, and predictive modelling.\nThrough my industrial PhD, I work closely with the water sector, with the aim of connecting methodological research with practical challenges in water quality monitoring and management."
+  },
+  {
+    "objectID": "about.html#research-interests",
+    "href": "about.html#research-interests",
+    "title": "About",
+    "section": "Research interests",
+    "text": "Research interests\n\nMicrobial water quality\nOnline flow cytometry\nMachine learning & explainable AI\nAnomaly detection\nTime-series analysis & forecasting\nEnvironmental monitoring\nData-driven water quality management"
+  },
+  {
+    "objectID": "about.html#affiliations",
+    "href": "about.html#affiliations",
+    "title": "About",
+    "section": "Affiliations",
+    "text": "Affiliations\nLund University\nSweden Water Research"
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "PhD Candidate | Environmental Microbiology · Online Flow Cytometry · Machine Learning\nEmail · GitHub · ORCID · Google Scholar"
+  },
+  {
+    "objectID": "cv.html#isabel-k.-erb",
+    "href": "cv.html#isabel-k.-erb",
+    "title": "Curriculum Vitae",
+    "section": "",
+    "text": "PhD Candidate | Environmental Microbiology · Online Flow Cytometry · Machine Learning\nEmail · GitHub · ORCID · Google Scholar"
+  },
+  {
+    "objectID": "cv.html#profile",
+    "href": "cv.html#profile",
+    "title": "Curriculum Vitae",
+    "section": "Profile",
+    "text": "Profile\nFinal-year industrial PhD candidate in Biotechnology and Applied Microbiology, specializing in data-driven monitoring of microbial water quality. My research combines online flow cytometry, automated E. coli measurements, environmental fieldwork, and explainable machine learning to study microbial water quality in urban coastal, bathing-water, groundwater, and drinking-water systems.\nI develop interpretable forecasting and anomaly-detection methods in collaboration with water utilities in Sweden and Iceland."
+  },
+  {
+    "objectID": "cv.html#education",
+    "href": "cv.html#education",
+    "title": "Curriculum Vitae",
+    "section": "Education",
+    "text": "Education\n\nPhD in Biotechnology and Applied Microbiology\nLund University and Sweden Water Research AB, Sweden\nOctober 2022–present\nExpected graduation: April 2027\n\n\nMSc in Biotechnology\nLund University, Sweden\nAugust 2020–June 2022\n\n\nBSc in Biotechnology\nBHT University of Applied Sciences, Berlin, Germany\nApril 2017–May 2020"
+  },
+  {
+    "objectID": "cv.html#research-experience",
+    "href": "cv.html#research-experience",
+    "title": "Curriculum Vitae",
+    "section": "Research Experience",
+    "text": "Research Experience\n\nDoctoral Student\nLund University and Sweden Water Research AB, Sweden\nOctober 2022–present\n\nImplement and evaluate automated monitoring procedures integrating online flow cytometry, enzymatic E. coli measurements, and environmental data.\nDevelop Python-based classification and forecasting models for fecal indicator bacteria in urban waters.\nDevelop baseline-free anomaly-detection pipelines using unsupervised machine learning.\nApply SHAP to investigate microbial anomalies in relation to operational and meteorological conditions.\nConduct culture-based and phenotypic analyses of environmental E. coli.\n\n\n\nVisiting Doctoral Researcher\nVeitur, Reykjavík, Iceland\nMarch–May 2025\n\nConducted automated monitoring of groundwater used for drinking-water production using online flow cytometry.\nApplied unsupervised machine learning to identify anomalous changes in groundwater microbial communities.\nEvaluated detected anomalies using utility operational records and meteorological data.\nUsed explainable AI to identify the flow cytometric features associated with microbial anomalies.\n\n\n\nResearch Assistant\nSweden Water Research, Lund, Sweden\nJune–October 2022\n\nEstablished continuous microbial monitoring of seawater using a BactoSense online flow cytometer and a ColiMinder enzymatic E. coli monitor.\nMonitored instrument performance and data quality during field deployment.\nProcessed and analyzed microbial and environmental monitoring data.\n\n\n\nMaster’s Thesis Student\nLund University, Sweden\nJanuary–June 2022\n\nAnalyzed whole-genome sequences of environmental E. coli isolated from marine sediments.\nCharacterized halotolerance, antibiotic susceptibility, and biofilm formation.\nPerformed statistical analyses of genomic and phenotypic characteristics."
+  },
+  {
+    "objectID": "cv.html#selected-skills",
+    "href": "cv.html#selected-skills",
+    "title": "Curriculum Vitae",
+    "section": "Selected Skills",
+    "text": "Selected Skills\n\nFlow cytometry: Conventional, automated, and online systems; 2D fingerprint analysis\nScientific computing: Python, pandas, scikit-learn, R, and QGIS\nMachine learning: Random Forest, Isolation Forest, support vector machines, logistic regression, and LSTM\nTime-series analysis and explainable AI: Forecasting, anomaly detection, and SHAP\nMolecular microbiology: DNA extraction, quantification, and whole-genome sequencing preparation\nBioinformatics: SKESA, CheckM, RGI, ClermonTyping, and MLST\nPhenotypic assays: Antibiotic susceptibility, growth, halotolerance, UV inhibition, and biofilm formation\nEnvironmental fieldwork: Water, sediment, soil, and air sampling\nResearch practice: Experimental design, statistical analysis, scientific writing, and student mentoring"
+  },
+  {
+    "objectID": "cv.html#teaching-and-mentoring",
+    "href": "cv.html#teaching-and-mentoring",
+    "title": "Curriculum Vitae",
+    "section": "Teaching and Mentoring",
+    "text": "Teaching and Mentoring\n\nResearch Mentor\nLund University, Sweden\nMarch 2023–present\nMentoring bachelor’s and master’s students conducting research on microbial water quality, environmental E. coli, antibiotic resistance, and anthropogenic impacts on aquatic systems.\n\n\nTeaching Assistant: Gene Technology\nLund University, Sweden\nMay 2026\nDelivered a guest lecture on archaeogenetics and graded master’s-level examinations.\n\n\nTeaching Assistant: Food Technology\nLund University, Sweden\n2022–2024\nSupervised laboratory practicals involving bacterial enumeration and microbial food production.\n\n\nSupplemental Instruction Leader\nLund University, Sweden\n2021\nDesigned and led supplemental instruction sessions in Bioprocess Technology."
+  },
+  {
+    "objectID": "cv.html#selected-invited-talks",
+    "href": "cv.html#selected-invited-talks",
+    "title": "Curriculum Vitae",
+    "section": "Selected Invited Talks",
+    "text": "Selected Invited Talks\n\nEUGLOH E-Conference on SDG 14: Life Below Water\nInvited speaker, April 2026\nImproving Marine Bathing Water Safety with Machine Learning and Flow Cytometry\nWatch the recording\n\n\nSödertörn University\nInvited seminar, April 2026\nImproving microbial quality of marine bathing water using whole-genome sequencing, flow cytometry, and machine learning\n\n\nSwedish Water Research Day\nInvited speaker, November 2024\nMaskininlärning för bättre badvattenkvalitet i Skåne"
+  },
+  {
+    "objectID": "cv.html#selected-conferences",
+    "href": "cv.html#selected-conferences",
+    "title": "Curriculum Vitae",
+    "section": "Selected Conferences",
+    "text": "Selected Conferences\n\nIWA World Water Congress & Exhibition, Glasgow, UK, 2026 — Oral presentation\nInternational Society for Microbial Ecology, Auckland, New Zealand, 2026 — Poster presentation\nAmerican Society for Microbiology Conference, Washington, DC, USA, 2026 — Poster presentation\nSwedish Water Research and Innovation Conference, Uppsala, Sweden, 2024 — Oral and poster presentations\nNordic Wastewater Conference, Gothenburg, Sweden, 2023 — Two oral presentations\nFEMS Congress of European Microbiologists, Hamburg, Germany, 2023 — Poster presentation"
+  },
+  {
+    "objectID": "cv.html#honors-and-recognition",
+    "href": "cv.html#honors-and-recognition",
+    "title": "Curriculum Vitae",
+    "section": "Honors and Recognition",
+    "text": "Honors and Recognition\n\nYoung Researcher Travel Scholarship for PhD Students, Royal Physiographic Society of Lund, 2026\nErnhold Lundström’s Scholarship, 2024 and 2026\nSwedish Television interview, 2025 — View the SVT feature\nHelsingborgs Dagblad research feature, 2024 — View the article\niGEM Competition Gold Medal, 2021 — Lund iGEM team"
+  },
+  {
+    "objectID": "cv.html#academic-service-and-leadership",
+    "href": "cv.html#academic-service-and-leadership",
+    "title": "Curriculum Vitae",
+    "section": "Academic Service and Leadership",
+    "text": "Academic Service and Leadership\n\nWorkshop Co-Chair, IWA World Water Congress & Exhibition, Glasgow, 2026\nPeer Reviewer, Journal of Applied Microbiology, 2026\nMember, IWA Young Water Professionals, 2023–present\nVolunteer Researcher, EMBL Traversing European Coastlines Expedition, Askö, Sweden, 2023"
+  },
+  {
+    "objectID": "cv.html#languages",
+    "href": "cv.html#languages",
+    "title": "Curriculum Vitae",
+    "section": "Languages",
+    "text": "Languages\n\nGerman: Native\nEnglish: Fluent\nSwedish: Intermediate\nFrench: Basic"
+  },
+  {
+    "objectID": "cv.html#publications",
+    "href": "cv.html#publications",
+    "title": "Curriculum Vitae",
+    "section": "Publications",
+    "text": "Publications\nSee my complete publication list."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Beyond baselines for anomaly detection: Isolation Forest for baseline-free identification of anomalies in microbial water quality using online flow cytometry and explainable AI\nIsabel K. Erb, Sverrir Guðmundsson, Ellen Edefell, Sigrún Tómasdóttir, Bjarni Reyr Kristjánsson, Niklas Gador, Catherine J. Paul\nWater Research\nDOI"
+  },
+  {
+    "objectID": "publications.html#section",
+    "href": "publications.html#section",
+    "title": "Publications",
+    "section": "",
+    "text": "Beyond baselines for anomaly detection: Isolation Forest for baseline-free identification of anomalies in microbial water quality using online flow cytometry and explainable AI\nIsabel K. Erb, Sverrir Guðmundsson, Ellen Edefell, Sigrún Tómasdóttir, Bjarni Reyr Kristjánsson, Niklas Gador, Catherine J. Paul\nWater Research\nDOI"
+  },
+  {
+    "objectID": "publications.html#section-1",
+    "href": "publications.html#section-1",
+    "title": "Publications",
+    "section": "2025",
+    "text": "2025\nA data-driven early warning system for Escherichia coli in water based on microbial community analysis using flow cytometry 2D histograms\nIsabel K. Erb, Niklas Gador, Moa Jinbäck, Elisabet Lindberg, Catherine J. Paul\nWater Research X\nDOI\nMicrobial Contamination in Urban Marine Sediments: Source Identification Using Microbial Community Analysis and Fecal Indicator Bacteria\nEllinor M. Frank, Carolina Suarez, Isabel K. Erb, Therese Jephson, Elisabet Lindberg, Catherine J. Paul\nMicroorganisms\nDOI"
+  },
+  {
+    "objectID": "publications.html#section-2",
+    "href": "publications.html#section-2",
+    "title": "Publications",
+    "section": "2024",
+    "text": "2024\nEscherichia coli in urban marine sediments: interpreting virulence, biofilm formation, halotolerance, and antibiotic resistance to infer contamination or naturalization\nIsabel K. Erb, Carolina Suarez, Ellinor M. Frank, Johan Bengtsson-Palme, Elisabet Lindberg, Catherine J. Paul\nFEMS Microbes\nDOI"
+  }
+]
