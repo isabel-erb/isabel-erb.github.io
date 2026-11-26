@@ -44,6 +44,10 @@ p {
   padding-top: 0.85rem;
   padding-bottom: 0.85rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  /* Keeps navbar above decorative animation */
+  position: relative;
+  z-index: 1000;
 }
 
 .navbar-brand {
@@ -60,6 +64,15 @@ p {
   color: var(--white) !important;
 }
 
+.navbar-toggler,
+.navbar-collapse,
+.navbar-nav,
+.nav-link {
+  position: relative;
+  z-index: 1001;
+  pointer-events: auto;
+}
+
 
 /* =====================================================
    HEADINGS
@@ -73,17 +86,20 @@ h3 {
 }
 
 h1 {
-  margin-bottom: 1.5rem;
+  font-size: 2.1rem;
+  margin-bottom: 1.3rem;
 }
 
 h2 {
-  margin-top: 2.5rem;
+  font-size: 1.55rem;
+  margin-top: 2.2rem;
   padding-bottom: 0.35rem;
   border-bottom: 1px solid var(--line-light);
 }
 
 h3 {
-  margin-top: 1.6rem;
+  font-size: 1.25rem;
+  margin-top: 1.5rem;
 }
 
 
@@ -131,6 +147,9 @@ a:hover {
 
 .water-animation {
   position: relative;
+
+  /* Decorative only: never intercept clicks/taps */
+  pointer-events: none;
 
   width: 100vw;
   height: 260px;
@@ -206,7 +225,7 @@ a:hover {
 
   border-top: 3px solid rgba(43, 132, 147, 0.48);
 
-  animation: waveFlow1 7.5s ease-in-out infinite alternate;
+  animation: waveFlow1 7s ease-in-out infinite alternate;
 }
 
 
@@ -219,7 +238,7 @@ a:hover {
 
   border-top: 2px solid rgba(91, 176, 187, 0.42);
 
-  animation: waveFlow2 7.5s ease-in-out infinite alternate;
+  animation: waveFlow2 9s ease-in-out infinite alternate;
 }
 
 
@@ -242,7 +261,7 @@ a:hover {
 
   background: rgba(148, 211, 217, 0.06);
 
-  animation: waveFlow3 7s ease-in-out infinite alternate;
+  animation: waveFlow3 6s ease-in-out infinite alternate;
 }
 
 
@@ -675,6 +694,15 @@ li {
    ACCESSIBILITY
    ===================================================== */
 
+@media (prefers-reduced-motion: reduce) {
+
+  .wave,
+  .wave-2::after,
+  .microbe {
+    animation: none;
+  }
+}
+
 
 /* =====================================================
    MOBILE
@@ -698,19 +726,37 @@ li {
   }
 
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .water-animation {
     height: 220px;
     margin-top: 2rem;
+
+    /* Extra safeguard against blocking mobile navigation */
+    pointer-events: none;
   }
 
   .water-animation::after {
     height: 24px;
+  }
+
+  .navbar,
+  .navbar-collapse {
+    z-index: 2000;
+  }
+
+  .navbar-toggler {
+    position: relative;
+    z-index: 2001;
+    pointer-events: auto;
+  }
+
+  .navbar-collapse .nav-link {
+    pointer-events: auto;
   }
 }

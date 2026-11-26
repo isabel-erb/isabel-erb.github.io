@@ -1,173 +1,180 @@
 ---
 title: "Curriculum Vitae"
-toc: true
+toc: false
 ---
 
 ## Isabel K. Erb
 
-*PhD Candidate | Environmental Microbiology · Online Flow Cytometry · Machine Learning*
+*PhD Candidate · Environmental Microbiology · Online Flow Cytometry · Machine Learning*
 
 [Email](mailto:isabel_katharina.erb@ple.lth.se) · [GitHub](https://github.com/isabel-erb) · [ORCID](https://orcid.org/0009-0001-5161-2336) · [Google Scholar](https://scholar.google.com/citations?user=z3tJCY8AAAAJ&hl=de&oi=ao)
 
+
 ## Profile
 
-Final-year industrial PhD candidate in Biotechnology and Applied Microbiology, specializing in data-driven monitoring of microbial water quality. My research combines online flow cytometry, automated *E. coli* measurements, environmental fieldwork, and explainable machine learning to study microbial water quality in urban coastal, bathing-water, groundwater, and drinking-water systems.
+I am a final-year industrial PhD candidate in Biotechnology and Applied Microbiology at Lund University and Sweden Water Research. My research combines microbial water quality monitoring, online flow cytometry, environmental data, and machine learning.
 
-I develop interpretable forecasting and anomaly-detection methods in collaboration with water utilities in Sweden and Iceland.
+I am particularly interested in developing interpretable data-driven approaches for understanding and predicting changes in microbial water quality.
+
 
 ## Education
 
 ### PhD in Biotechnology and Applied Microbiology
-
-**Lund University and Sweden Water Research AB, Sweden**  
-October 2022–present  
-Expected graduation: April 2027
+**Lund University & Sweden Water Research AB** · Sweden  
+2022–present · Expected graduation April 2027
 
 ### MSc in Biotechnology
-
-**Lund University, Sweden**  
-August 2020–June 2022
+**Lund University** · Sweden  
+2020–2022
 
 ### BSc in Biotechnology
+**BHT University of Applied Sciences** · Berlin, Germany  
+2017–2020
 
-**BHT University of Applied Sciences, Berlin, Germany**  
-April 2017–May 2020
 
 ## Research Experience
 
 ### Doctoral Student
+**Lund University & Sweden Water Research AB**  
+*2022–present*
 
-**Lund University and Sweden Water Research AB, Sweden**  
-October 2022–present
-
-- Implement and evaluate automated monitoring procedures integrating online flow cytometry, enzymatic *E. coli* measurements, and environmental data.
-- Develop Python-based classification and forecasting models for fecal indicator bacteria in urban waters.
-- Develop baseline-free anomaly-detection pipelines using unsupervised machine learning.
-- Apply SHAP to investigate microbial anomalies in relation to operational and meteorological conditions.
-- Conduct culture-based and phenotypic analyses of environmental *E. coli*.
+Research on data-driven microbial water-quality monitoring using online flow cytometry, automated *E. coli* measurements, environmental monitoring, machine learning, time-series forecasting, anomaly detection, and explainable AI.
 
 ### Visiting Doctoral Researcher
+**Veitur · Reykjavík, Iceland**  
+*March–May 2025*
 
-**Veitur, Reykjavík, Iceland**  
-March–May 2025
-
-- Conducted automated monitoring of groundwater used for drinking-water production using online flow cytometry.
-- Applied unsupervised machine learning to identify anomalous changes in groundwater microbial communities.
-- Evaluated detected anomalies using utility operational records and meteorological data.
-- Used explainable AI to identify the flow cytometric features associated with microbial anomalies.
+Investigated microbial dynamics in groundwater used for drinking-water production using online flow cytometry, unsupervised machine learning, operational data, meteorological data, and explainable AI.
 
 ### Research Assistant
+**Sweden Water Research · Lund, Sweden**  
+*June–October 2022*
 
-**Sweden Water Research, Lund, Sweden**  
-June–October 2022
+Established continuous microbial monitoring of seawater using BactoSense online flow cytometry and ColiMinder automated *E. coli* monitoring.
 
-- Established continuous microbial monitoring of seawater using a BactoSense online flow cytometer and a ColiMinder enzymatic *E. coli* monitor.
-- Monitored instrument performance and data quality during field deployment.
-- Processed and analyzed microbial and environmental monitoring data.
+### Master's Thesis
+**Lund University · Sweden**  
+*January–June 2022*
 
-### Master’s Thesis Student
+Genomic and phenotypic characterization of environmental *E. coli* isolated from urban marine sediments.
 
-**Lund University, Sweden**  
-January–June 2022
 
-- Analyzed whole-genome sequences of environmental *E. coli* isolated from marine sediments.
-- Characterized halotolerance, antibiotic susceptibility, and biofilm formation.
-- Performed statistical analyses of genomic and phenotypic characteristics.
+## Expertise
 
-## Selected Skills
+**Microbial monitoring**  
+Online flow cytometry · BactoSense · ColiMinder · Microbial community fingerprints
 
-- **Flow cytometry:** Conventional, automated, and online systems; 2D fingerprint analysis
-- **Scientific computing:** Python, pandas, scikit-learn, R, and QGIS
-- **Machine learning:** Random Forest, Isolation Forest, support vector machines, logistic regression, and LSTM
-- **Time-series analysis and explainable AI:** Forecasting, anomaly detection, and SHAP
-- **Molecular microbiology:** DNA extraction, quantification, and whole-genome sequencing preparation
-- **Bioinformatics:** SKESA, CheckM, RGI, ClermonTyping, and MLST
-- **Phenotypic assays:** Antibiotic susceptibility, growth, halotolerance, UV inhibition, and biofilm formation
-- **Environmental fieldwork:** Water, sediment, soil, and air sampling
-- **Research practice:** Experimental design, statistical analysis, scientific writing, and student mentoring
+**Data science**  
+Python · pandas · scikit-learn · R · QGIS
 
-## Teaching and Mentoring
+**Machine learning**  
+Random Forest · Isolation Forest · Support Vector Machines · Logistic Regression · LSTM
 
-### Research Mentor
+**Time series & explainable AI**  
+Forecasting · Anomaly detection · SHAP
 
-**Lund University, Sweden**  
-March 2023–present
+**Environmental microbiology**  
+Culture-based methods · Environmental *E. coli* · Antibiotic susceptibility · Biofilm formation · Halotolerance
 
-Mentoring bachelor’s and master’s students conducting research on microbial water quality, environmental *E. coli*, antibiotic resistance, and anthropogenic impacts on aquatic systems.
+**Molecular & genomic methods**  
+DNA extraction · Whole-genome sequencing preparation · SKESA · CheckM · RGI · ClermonTyping · MLST
 
-### Teaching Assistant: Gene Technology
+**Fieldwork**  
+Water · Sediment · Soil · Air sampling · Environmental metadata collection
 
-**Lund University, Sweden**  
-May 2026
 
-Delivered a guest lecture on archaeogenetics and graded master’s-level examinations.
+## Teaching & Mentoring
 
-### Teaching Assistant: Food Technology
+**Research Mentor · Lund University**  
+2023–present  
+Mentoring bachelor's and master's students in microbial water quality and environmental microbiology.
 
-**Lund University, Sweden**  
-2022–2024
+**Teaching Assistant · Gene Technology**  
+2026  
+Guest lecture on archaeogenetics and master-level examination grading.
 
-Supervised laboratory practicals involving bacterial enumeration and microbial food production.
+**Teaching Assistant · Food Technology**  
+2022–2024  
+Supervision of microbiology laboratory practicals.
 
-### Supplemental Instruction Leader
+**Supplemental Instruction Leader · Bioprocess Technology**  
+2021  
+Designed and led student learning sessions.
 
-**Lund University, Sweden**  
-2021
-
-Designed and led supplemental instruction sessions in Bioprocess Technology.
 
 ## Selected Invited Talks
 
-### EUGLOH E-Conference on SDG 14: Life Below Water
+**EUGLOH E-Conference on SDG 14: Life Below Water** · 2026  
+*Improving Marine Bathing Water Safety with Machine Learning and Flow Cytometry*  
+[Watch recording](https://www.youtube.com/watch?v=Qh9lHoIDwq0)
 
-**Invited speaker, April 2026**
+**Södertörn University** · 2026  
+*Improving microbial quality of marine bathing water using whole-genome sequencing, flow cytometry and machine learning*
 
-*Improving Marine Bathing Water Safety with Machine Learning and Flow Cytometry*
-
-[Watch the recording](https://www.youtube.com/watch?v=Qh9lHoIDwq0)
-
-### Södertörn University
-
-**Invited seminar, April 2026**
-
-*Improving microbial quality of marine bathing water using whole-genome sequencing, flow cytometry, and machine learning*
-
-### Swedish Water Research Day
-
-**Invited speaker, November 2024**
-
+**Swedish Water Research Day** · 2024  
 *Maskininlärning för bättre badvattenkvalitet i Skåne*
+
 
 ## Selected Conferences
 
-- **IWA World Water Congress & Exhibition**, Glasgow, UK, 2026 — Oral presentation
-- **International Society for Microbial Ecology**, Auckland, New Zealand, 2026 — Poster presentation
-- **American Society for Microbiology Conference**, Washington, DC, USA, 2026 — Poster presentation
-- **Swedish Water Research and Innovation Conference**, Uppsala, Sweden, 2024 — Oral and poster presentations
-- **Nordic Wastewater Conference**, Gothenburg, Sweden, 2023 — Two oral presentations
-- **FEMS Congress of European Microbiologists**, Hamburg, Germany, 2023 — Poster presentation
+**IWA World Water Congress & Exhibition** · Glasgow, UK · 2026  
+Oral presentation
 
-## Honors and Recognition
+**International Society for Microbial Ecology (ISME)** · Auckland, New Zealand · 2026  
+Poster presentation
 
-- **Young Researcher Travel Scholarship for PhD Students**, Royal Physiographic Society of Lund, 2026
-- **Ernhold Lundström’s Scholarship**, 2024 and 2026
-- **Swedish Television interview**, 2025 — [View the SVT feature](https://www.svt.se/nyheter/lokalt/helsingborg/ny-metod-kan-mata-bakterier-i-badvatten-pa-en-kvart-idag-tar-det-dagar)
-- **Helsingborgs Dagblad research feature**, 2024 — [View the article](https://www.hd.se/helsingborg/ai-ska-forutspa-bajsbakterier-i-badvattnet-innan-du-hoppar-i-plurret/)
-- **iGEM Competition Gold Medal**, 2021 — [Lund iGEM team](https://2021.igem.org/Team:Lund/Team)
+**American Society for Microbiology (ASM)** · Washington, DC, USA · 2026  
+Poster presentation
 
-## Academic Service and Leadership
+**Swedish Water Research and Innovation Conference** · Uppsala, Sweden · 2024  
+Oral & poster presentations
 
-- **Workshop Co-Chair**, IWA World Water Congress & Exhibition, Glasgow, 2026
-- **Peer Reviewer**, Journal of Applied Microbiology, 2026
-- **Member**, IWA Young Water Professionals, 2023–present
-- **Volunteer Researcher**, EMBL Traversing European Coastlines Expedition, Askö, Sweden, 2023
+**Nordic Wastewater Conference (NORDIWA)** · Gothenburg, Sweden · 2023  
+Two oral presentations
+
+**FEMS Congress of European Microbiologists** · Hamburg, Germany · 2023  
+Poster presentation
+
+
+## Honors & Recognition
+
+**Young Researcher Travel Scholarship** · 2026  
+Royal Physiographic Society of Lund
+
+**Ernhold Lundström's Scholarship** · 2024 & 2026  
+Awarded based on academic merit
+
+**Swedish Television (SVT Helsingborg)** · 2025  
+Interview about rapid, data-driven microbial water-quality monitoring  
+[View feature](https://www.svt.se/nyheter/lokalt/helsingborg/ny-metod-kan-mata-bakterier-i-badvatten-pa-en-kvart-idag-tar-det-dagar)
+
+**Helsingborgs Dagblad** · 2024  
+Media coverage of research on rapid microbial bathing-water monitoring  
+[View feature](https://www.hd.se/helsingborg/ai-ska-forutspa-bajsbakterier-i-badvattnet-innan-du-hoppar-i-plurret/)
+
+**iGEM Competition** · 2021  
+Gold Medal · [Lund iGEM Team](https://2021.igem.org/Team:Lund/Team)
+
+
+## Academic Service & Leadership
+
+**Workshop Co-Chair** · IWA World Water Congress & Exhibition · 2026  
+*Microbial Sensors for Real-Time Management of Drinking and Recreational Waters*
+
+**Peer Reviewer** · Journal of Applied Microbiology · 2026
+
+**Member** · IWA Young Water Professionals · 2023–present
+
+**Volunteer Researcher** · EMBL Traversing European Coastlines (TREC) Expedition · 2023
+
 
 ## Languages
 
-- **German:** Native
-- **English:** Fluent
-- **Swedish:** Intermediate
-- **French:** Basic
+**German** · Native  
+**English** · Fluent  
+**Swedish** · Intermediate  
+**French** · Basic
+
 
 ## Publications
 
