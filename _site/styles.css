@@ -145,9 +145,36 @@ a:hover {
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 0) 15%,
     rgba(217, 241, 243, 0.18) 30%,
-    rgba(166, 218, 223, 0.25) 55%,
-    rgba(107, 187, 196, 0.34) 100%
+    rgba(166, 218, 223, 0.32) 55%,
+    rgba(107, 187, 196, 0.48) 100%
   );
+}
+
+
+/* =====================================================
+   SEDIMENT
+   ===================================================== */
+
+.water-animation::after {
+  content: "";
+
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 30px;
+
+  background: linear-gradient(
+    to bottom,
+    #d8c5a3 0%,
+    #c7ad82 55%,
+    #b89a70 100%
+  );
+
+  border-top: 2px solid rgba(143, 116, 79, 0.25);
+
+  z-index: 4;
 }
 
 
@@ -173,7 +200,7 @@ a:hover {
 /* Main wave */
 
 .wave-1 {
-  bottom: -55px;
+  bottom: 30px;
 
   background: rgba(79, 171, 184, 0.13);
 
@@ -186,7 +213,7 @@ a:hover {
 /* Secondary wave */
 
 .wave-2 {
-  bottom: -80px;
+  bottom: 0px;
 
   background: rgba(101, 190, 199, 0.10);
 
@@ -219,7 +246,9 @@ a:hover {
 }
 
 
-/* Wave movement */
+/* =====================================================
+   WAVE MOVEMENT
+   ===================================================== */
 
 @keyframes waveFlow1 {
 
@@ -250,7 +279,7 @@ a:hover {
   100% {
     transform:
       translateX(7%)
-      translateY(-42px)
+      translateY(-60px)
       rotate(1.3deg)
       scaleY(1.25);
   }
@@ -270,7 +299,7 @@ a:hover {
   50% {
     transform:
       translateX(0%)
-      translateY(-48px)
+      translateY(-65px)
       rotate(-1.3deg)
       scaleY(1.30);
   }
@@ -297,7 +326,7 @@ a:hover {
   100% {
     transform:
       translateX(6%)
-      translateY(-40px)
+      translateY(-50px)
       scaleY(1.25);
   }
 }
@@ -561,7 +590,7 @@ a:hover {
 
 
 /* =====================================================
-   MICROBIAL MOVEMENT
+   MICROBIAL MOVEMENT THROUGH WATER
    ===================================================== */
 
 @keyframes microbialCurrent {
@@ -653,7 +682,6 @@ li {
   .microbe {
     animation: none;
   }
-
 }
 
 
@@ -691,4 +719,7 @@ li {
     margin-top: 2rem;
   }
 
+  .water-animation::after {
+    height: 24px;
+  }
 }
