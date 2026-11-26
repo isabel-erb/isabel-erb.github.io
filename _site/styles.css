@@ -44,8 +44,6 @@ p {
   padding-top: 0.85rem;
   padding-bottom: 0.85rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-
-  /* Keeps navbar above decorative animation */
   position: relative;
   z-index: 1000;
 }
@@ -62,15 +60,6 @@ p {
 
 .navbar .nav-link:hover {
   color: var(--white) !important;
-}
-
-.navbar-toggler,
-.navbar-collapse,
-.navbar-nav,
-.nav-link {
-  position: relative;
-  z-index: 1001;
-  pointer-events: auto;
 }
 
 
@@ -147,8 +136,6 @@ a:hover {
 
 .water-animation {
   position: relative;
-
-  /* Decorative only: never intercept clicks/taps */
   pointer-events: none;
 
   width: 100vw;
@@ -232,7 +219,7 @@ a:hover {
 /* Secondary wave */
 
 .wave-2 {
-  bottom: 0px;
+  bottom: 0;
 
   background: rgba(101, 190, 199, 0.10);
 
@@ -357,9 +344,7 @@ a:hover {
 
 .microbe {
   position: absolute;
-
   z-index: 3;
-
   opacity: 0.82;
 
   box-shadow:
@@ -376,13 +361,10 @@ a:hover {
 .microbe-1 {
   left: -5%;
   top: 160px;
-
   width: 7px;
   height: 7px;
-
   border-radius: 50%;
   background: #38aeb9;
-
   animation-duration: 10s;
 }
 
@@ -392,13 +374,10 @@ a:hover {
 .microbe-2 {
   left: -8%;
   top: 195px;
-
   width: 19px;
   height: 7px;
-
   border-radius: 8px;
   background: #72ad70;
-
   animation-duration: 14s;
   animation-delay: -4s;
 }
@@ -409,13 +388,10 @@ a:hover {
 .microbe-3 {
   left: -6%;
   top: 145px;
-
   width: 22px;
   height: 8px;
-
   border-radius: 8px;
   background: #8a76ae;
-
   animation-duration: 12s;
   animation-delay: -7s;
 }
@@ -426,13 +402,10 @@ a:hover {
 .microbe-4 {
   left: -8%;
   top: 215px;
-
   width: 8px;
   height: 8px;
-
   border-radius: 50%;
   background: #4c8fbd;
-
   animation-duration: 16s;
   animation-delay: -9s;
 }
@@ -443,13 +416,10 @@ a:hover {
 .microbe-5 {
   left: -6%;
   top: 180px;
-
   width: 17px;
   height: 7px;
-
   border-radius: 8px;
   background: #d98274;
-
   animation-duration: 13s;
   animation-delay: -2s;
 }
@@ -460,13 +430,10 @@ a:hover {
 .microbe-6 {
   left: -7%;
   top: 225px;
-
   width: 21px;
   height: 7px;
-
   border-radius: 8px;
   background: #d2a642;
-
   animation-duration: 15s;
   animation-delay: -6s;
 }
@@ -477,13 +444,10 @@ a:hover {
 .microbe-7 {
   left: -9%;
   top: 188px;
-
   width: 5px;
   height: 5px;
-
   border-radius: 50%;
   background: #4fa6a6;
-
   animation-duration: 9s;
   animation-delay: -5s;
 }
@@ -494,13 +458,10 @@ a:hover {
 .microbe-8 {
   left: -7%;
   top: 150px;
-
   width: 16px;
   height: 6px;
-
   border-radius: 7px;
   background: #55b7ad;
-
   animation-duration: 17s;
   animation-delay: -12s;
 }
@@ -511,13 +472,10 @@ a:hover {
 .microbe-9 {
   left: -5%;
   top: 208px;
-
   width: 9px;
   height: 9px;
-
   border-radius: 50%;
   background: #c77d91;
-
   animation-duration: 11s;
   animation-delay: -8s;
 }
@@ -528,13 +486,10 @@ a:hover {
 .microbe-10 {
   left: -8%;
   top: 175px;
-
   width: 20px;
   height: 7px;
-
   border-radius: 8px;
   background: #548eaf;
-
   animation-duration: 14.5s;
   animation-delay: -10s;
 }
@@ -545,13 +500,10 @@ a:hover {
 .microbe-11 {
   left: -5%;
   top: 230px;
-
   width: 5px;
   height: 5px;
-
   border-radius: 50%;
   background: #87af75;
-
   animation-duration: 12.5s;
   animation-delay: -6s;
 }
@@ -562,13 +514,10 @@ a:hover {
 .microbe-12 {
   left: -9%;
   top: 202px;
-
   width: 15px;
   height: 6px;
-
   border-radius: 7px;
   background: #8c80ad;
-
   animation-duration: 18s;
   animation-delay: -14s;
 }
@@ -579,13 +528,10 @@ a:hover {
 .microbe-13 {
   left: -6%;
   top: 168px;
-
   width: 6px;
   height: 6px;
-
   border-radius: 50%;
   background: #d99b62;
-
   animation-duration: 10.5s;
   animation-delay: -3s;
 }
@@ -596,13 +542,10 @@ a:hover {
 .microbe-14 {
   left: -7%;
   top: 218px;
-
   width: 18px;
   height: 6px;
-
   border-radius: 7px;
   background: #477f83;
-
   animation-duration: 15.5s;
   animation-delay: -11s;
 }
@@ -706,24 +649,30 @@ li {
 
 /* =====================================================
    MOBILE
+   Homepage stacks vertically + navigation always visible
    ===================================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
+
+  /* Homepage text and portrait stack vertically */
 
   .columns {
-    display: block;
+    display: block !important;
   }
 
   .column {
     width: 100% !important;
-    padding-right: 0;
+    padding-right: 0 !important;
   }
 
   .column img {
     display: block;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     max-width: 220px;
   }
+
+
+  /* Slightly smaller headings */
 
   h1 {
     font-size: 1.8rem;
@@ -733,30 +682,110 @@ li {
     font-size: 1.4rem;
   }
 
+
+  /* Water animation */
+
   .water-animation {
     height: 220px;
     margin-top: 2rem;
+    pointer-events: none !important;
+  }
 
-    /* Extra safeguard against blocking mobile navigation */
-    pointer-events: none;
+  .water-animation *,
+  .water-animation::before,
+  .water-animation::after {
+    pointer-events: none !important;
   }
 
   .water-animation::after {
     height: 24px;
   }
 
-  .navbar,
-  .navbar-collapse {
-    z-index: 2000;
+
+  /* Keep header above all decorative content */
+
+  #quarto-header,
+  .navbar {
+    position: relative !important;
+    z-index: 9999 !important;
   }
+
+
+  /* We do not need a hamburger with only 3 links */
 
   .navbar-toggler {
-    position: relative;
-    z-index: 2001;
-    pointer-events: auto;
+    display: none !important;
   }
 
-  .navbar-collapse .nav-link {
-    pointer-events: auto;
+
+  /* Always show the navigation area */
+
+  .navbar-collapse {
+    display: flex !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    height: auto !important;
+
+    width: 100%;
+    margin-top: 0.25rem;
+
+    position: relative !important;
+    z-index: 10000 !important;
+
+    pointer-events: auto !important;
+  }
+
+
+  /* Put site title on first row */
+
+  .navbar-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+
+  .navbar-brand-container {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+
+  /* Put Home / Publications / CV on second row */
+
+  .navbar-nav {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: nowrap !important;
+
+    width: auto !important;
+
+    gap: 1rem;
+    margin: 0 !important;
+
+    position: relative !important;
+    z-index: 10001 !important;
+
+    pointer-events: auto !important;
+  }
+
+  .navbar-nav .nav-item {
+    display: block !important;
+    pointer-events: auto !important;
+  }
+
+  .navbar-nav .nav-link {
+    display: block !important;
+
+    padding: 0.4rem 0.25rem !important;
+
+    color: var(--white) !important;
+
+    font-size: 0.9rem;
+    white-space: nowrap;
+
+    pointer-events: auto !important;
   }
 }
